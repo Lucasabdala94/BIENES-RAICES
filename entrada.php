@@ -1,4 +1,7 @@
-<?php include 'includes/templates/header.php';?>
+<?php   
+    require 'includes/funciones.php'; 
+    incluirTemplate('header');
+?>
     <main class="contenedor secccion contenido-centrado">
         <h1>Guia para la decoracion de tu hogar</h1>
         <picture>
@@ -14,17 +17,6 @@
             <p>dolore quidem quod odit doloremque dolor. Suscipit corrupti impedit ipsam? Distinctio eos sapiente reiciendis, beatae cupiditate, cum accusantium debitis ab nihil minus veniam enim modi omnis qui odio repellat pariatur minima dolorum neque soluta, nisi consectetur inventore. Expedita assumenda sapiente totam saepe, quo tenetur voluptatum laudantium iusto libero repellat, officiis vel. Accusamus consectetur quidem architecto atque perferendis impedit praesentium? Harum, dolorum voluptatem. Facere veniam, libero dolorum, aut necessitatibus nobis atque rerum corrupti quo error iure perspiciatis quam?</p>
         </div>
     </main>
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncio</a>
-                <a href="blog.php">Blog</a>
-                <a href="contacto.php">Contacto</a>
-            </nav>
-        </div>
-        <p class="copyright" >Todos los Derechos Reservados 2021 &copy;</p>
-    </footer>
-    <script src="build/js/bundle.js"></script>
-</body>
-</html>
+<?php
+    incluirTemplate('footer');
+?>
